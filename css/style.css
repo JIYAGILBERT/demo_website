@@ -1,0 +1,23 @@
+.home{
+    color: antiquewhite;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.bag{
+    padding: 200px;
+    background-image:url('../images/image2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.para{
+    font-size: 20px;
+    color: white;
+}
+.con{
+    font-size: 20px;
+    border: 2px green solid;
+    border-width: 300;
+    background-color: green;
+    
+}
