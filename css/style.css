@@ -1,4 +1,4 @@
-.home{
+.h1{
     color: rgb(245, 45, 10);
     font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
@@ -6,10 +6,22 @@
 .bag{
     padding: 200px;
     background-image:url('../images/img7.avif');
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 10px;
+
+}
+.search_ioc{
+    margin-left: 1500px;
+    width: 100px;
+}
+.h2{
+
+    padding: 100px;
+    margin-left: 350px;
+   width: 1000px;
 }
 .para{
     font-size: 20px;
@@ -31,7 +43,7 @@
 }
 .con1{
     background-image: url('../images/veg1.jpg');
-    padding: 100px;
+    padding: 250px;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment:scroll;
