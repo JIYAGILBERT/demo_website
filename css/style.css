@@ -1,14 +1,15 @@
 .home{
-    color: antiquewhite;
+    color: rgb(245, 45, 10);
     font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
 }
 .bag{
     padding: 200px;
-    background-image:url('../images/image2.jpg');
+    background-image:url('../images/img7.avif');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 10px;
 }
 .para{
     font-size: 20px;
@@ -16,8 +17,27 @@
 }
 .con{
     font-size: 20px;
-    border: 2px green solid;
+    border: 10px green solid;
     border-width: 300;
     background-color: green;
+    color: white;
     
+}
+.hed1{
+    background-color:rgb(249, 246, 246);
+    padding: 30px;
+    margin: 0px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.con1{
+    background-image: url('../images/veg1.jpg');
+    padding: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    color: white;
+    background-size: cover;
+    margin: 10px;
+    text-align: center;
+
 }
