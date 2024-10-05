@@ -1,10 +1,12 @@
+
+img{width: 100%;}
 .h1{
     color: rgb(13, 250, 199);
     font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
 }
 .bag{
-    padding: 200px;
+   
     background-image:url('../images/img7.avif');
     background-attachment: fixed;
     background-position: center;
@@ -13,37 +15,32 @@
     margin: 10px;
 
 }
-.search_ioc{
-    margin-left: 1200px;
-    width: 100px;
+.bgcolor{ background-color: rgba(0, 0, 0, 0.7); padding: 200px; margin-left: 0px; margin-right: 0px;}
+.flex-container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
-.serv_ioc{
-    font-size: 100px;
-    margin-left: 300px;
-    width: 800px;
+.serv_ioc{ font-size: 20px;
     color: green;
+    
 
-}
+     width: 20%; text-align: center;}
+
+.serv_ioc p{ line-height: 0.9; margin-top: 10px; margin-bottom: 10px;}
 .serv_name{
-    margin-left: 280px;
-    font-size: 30px;
+    
+    font-size: 17px;
     text-decoration: none;
     color:black;
     text-decoration: none;
 }
-.material-symbols-outlined.eqp_ioc{
-    font-size: 100px;
-
-    color: green;
-    width: 900px;
+.ioc_font{
+    font-size: 60px;
 }
+.text-align{ text-align: center;}
+.h2{ width: 70%;}
 
-.h2{
-
-    padding: 50px;
-    margin-left: 180px;
-   width: 1050px;
-}
 .para{
     font-size: 20px;
     color: white;
