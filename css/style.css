@@ -1,21 +1,39 @@
 
 img{width: 100%;}
+.top-hed{
+    
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    font: 18px;
+    background-size: contain;
+
+    }
+
 .h1{
-    color: rgb(13, 250, 199);
+    color: rgb(5, 5, 5);
     font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .bag{
    
-    background-image:url('../images/img7.avif');
+    background-image:url('../images/img3.jpg');
     background-attachment: fixed;
-    background-position: center;
+    background-position:top center;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 10px;
 
 }
-.bgcolor{ background-color: rgba(0, 0, 0, 0.7); padding: 200px; margin-left: 0px; margin-right: 0px;}
+.top-ioc{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    width: 40%; text-align: left;
+}
+.bgcolor{ background-color: rgba(9, 10, 10, 0.2); padding: 200px; margin-left: 0px; margin-right: 0px;}
 .flex-container{
     display:flex;
     flex-direction: row;
